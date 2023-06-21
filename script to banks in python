@@ -1,0 +1,53 @@
+c = 21
+
+print("prosze sie zalogować")
+
+b = (input(""))
+
+print("logowanie...")
+
+print("Witaj ponownie" ,b)
+
+print("balans to", c)
+
+print("prosze wpisać liczbe")
+
+a = int(input(""))
+
+if ( a < c):
+    print("jest")
+    print("prosze podać pin")
+    e = (input(""))
+    print("wypłacono pomyślnie")
+    print("!!!akutualy balans to!!!", c - a)
+    print("czy chcesz sie wylogować ?")
+    print("!!!PROSZE NAPISAĆ POMYŚLNIE ALBO NIE POMYŚLNIE!!!")
+    i = input("")
+    print("wylogowano", i)
+    print("zapraszamy ponowinie")
+    
+if ( a > c): 
+    print("nie ma")
+    print("czy chcesz wypłacić mnięjszą liczbe ?")
+    f = (input (""))
+    print("prosze podać MNIEJSZĄ liczbe")
+    g = int(input(""))
+    print("wypłacono pomyślnie")
+    print("aktualny balans to", c - g)
+    print("nie mozesz wypłacić do spłaty kredytu masz doliczonie", g * 1/3)
+    print("teraz masz do odania", (g * 1/3) + g)
+    print("czy chcesz sie wylogować ?")
+    print("!!!PROSZE NAPISAĆ POMYŚLNIE ALBO NIE POMYŚLNIE!!!")
+    j = (input(""))
+    print("wylogowano", j)
+    print("zapraszamy ponowinie")
+if ( a == c):
+    print("prosze podać pin")
+    h = (input(""))
+    print("wypłacono pomyślnie")
+    print("!!!akutualy balans to!!!", c - a)
+    print("czy chcesz sie wylogować ?")
+    print("!!!PROSZE NAPISAĆ POMYŚLNIE ALBO NIE POMYŚLNIE!!!")
+    k = input("")
+    print("wylogowano", k)
+    print("zapraszamy ponowinie")
